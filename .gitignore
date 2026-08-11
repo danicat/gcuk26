@@ -1,0 +1,45 @@
+# Sensitive Data & PDFs containing account credentials
+gophercon_uk_2026_card_fronts_decorated.pdf
+*.pdf
+!gophercon_uk_2026_card_backs_*.pdf
+
+# Temporary files & scratch workspace
+scratch/
+sticker_set.png
+tmp/
+
+# Python Virtual Environments & Caches
+.venv/
+venv/
+ENV/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+
+# macOS / System files
+.DS_Store
+.AppleDouble
+.LSSharedFileList
+.Spotlight-V100
+.Trashes
+Thumbs.db
+
+# Build Artifacts & Binaries
+*.wasm
+*.exe
+*.dll
+*.so
+*.dylib
+bin/
+dist/
+build/
+
+# Secret Keys, Environment & Credentials
+.env
+.env.*
+*.pem
+*.key
+credentials.json
+service_account.json
