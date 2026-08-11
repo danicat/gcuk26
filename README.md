@@ -1,5 +1,7 @@
 # GopherCon UK 2026: Vibe Code a 2D Game with Go and Gemini
 
+![GopherCon UK 2026 Logo](gophercon_uk_2026_card_back_logo.png)
+
 This repository contains supporting materials, Agent Skills, and automated tools for the workshop **"Vibe Code a 2D Game with Go and Gemini"** presented at GopherCon UK in August 2026.
 
 ---
