@@ -1,11 +1,7 @@
-# Sensitive Data & PDFs containing account credentials
-gophercon_uk_2026_card_fronts_decorated.pdf
 *.pdf
-!gophercon_uk_2026_card_backs_*.pdf
 
 # Temporary files & scratch workspace
 scratch/
-sticker_set.png
 tmp/
 
 # Python Virtual Environments & Caches
