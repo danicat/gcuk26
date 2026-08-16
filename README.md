@@ -6,6 +6,8 @@
 
 Materials, agent skills, and tooling for the "Vibe Code a 2D Game with Go and Gemini" workshop at GopherCon UK 2026.
 
+- 📑 **Slide Deck**: [Vibe Code a 2D Game using Go and Gemini](https://speakerdeck.com/danicat/vibe-code-a-2d-game-using-go-and-gemini)
+
 ## Session Overview
 
 Participants build 2D games in Go using Ebitengine v2, integrated with Google Gemini models for image generation (Nano Banana), audio generation (Lyria 3), and automated Go quality tooling (GoDoctor).
