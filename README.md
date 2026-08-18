@@ -2,27 +2,37 @@
 
 ![GopherCon UK 2026 Logo](logo.png)
 
-> **Note**: The agent skills in this repository will not be updated here. Updated and maintained versions of these skills are available at [github.com/danicat/skills](https://github.com/danicat/skills).
+> **Note**: The agent skills in this repository will not be updated here. Updated and maintained versions of these skills are available at [skills.danicat.dev](https://skills.danicat.dev)
 
-Materials, agent skills, and tooling for the "Vibe Code a 2D Game with Go and Gemini" workshop at GopherCon UK 2026.
+Materials, agent skills, and tooling for the "Vibe Code a 2D Game with Go and Gemini" workshop and Mini Game Jam at GopherCon UK 2026.
 
-- 📑 **Slide Deck**: [Vibe Code a 2D Game using Go and Gemini](https://speakerdeck.com/danicat/vibe-code-a-2d-game-using-go-and-gemini)
+## Who am I?
+
+DISCLAIMER: I AM NOT A GAME DEVELOPER.
+
+![](chibi_dani_oops.png)
+
+I am [Daniela Petruzalek](https://linkedin.com/in/petruzalek), a Developer Relations Engineer at Google. I am the author and facilitator of this workshop. I might not be a game developer, but I am a lifetime gamer and game collector, and enjoy using projects like this to teach modern software engineering concepts like agentic coding, generative AI and other ways to use AI to unlock your creativity!
 
 ## Session Overview
 
-Participants build 2D games in Go using Ebitengine v2, integrated with Google Gemini models for image generation (Nano Banana), audio generation (Lyria 3), and automated Go quality tooling (GoDoctor).
+After a brief intro of the Gemini model family and the Antigravity coding agent, the participants are invited to build 2D games in Go using Ebitengine v2, using Google Gemini models for coding, image generation (Nano Banana) and audio generation (Lyria 3).
+
+- 📑 **Slide Deck**: [Vibe Code a 2D Game using Go and Gemini](https://speakerdeck.com/danicat/vibe-code-a-2d-game-using-go-and-gemini)
 
 ### Design Approach
 
-The skills and reference modules here are generic building blocks for any 2D game genre—arcade, puzzle, platformer, strategy, RPG, or rhythm games. Snippets like pathfinding, collision, or UI components are modular references that developers and coding agents adapt to fit specific mechanics.
+The skills and reference modules here are generic building blocks for any 2D game genre—arcade, puzzle, platformer, strategy, RPG, or rhythm games. Snippets like pathfinding, collision, or UI components are modular references that developers and coding agents adapt to fit specific mechanics. Start your session by activating the `/vibe-game-developer` skill and work with Antigravity to build your game!
 
 ## GopherCon UK Mini Game Jam
 
 During the workshop session, participants competed in the **GopherCon UK Mini Game Jam**.
 
-🏆 **Winner**: [**London Eco-Rider: Ice Cream & Bottle Patrol**](game-jam/london-eco-rider) by **Ivan S** ([@inesusvet](https://github.com/inesusvet)).
+The theme this time was "Garbage Collector (Green tea 🍵)".
 
-For complete submission details, see the [**Game Jam Showcase**](game-jam/README.md).
+🏆 **Winner**: [**London Eco-Rider: Ice Cream & Bottle Patrol**](mini-game-jam/london-eco-rider) by **Ivan S** ([@inesusvet](https://github.com/inesusvet)).
+
+For complete submission details, see the [**Game Jam Showcase**](mini-game-jam/README.md).
 
 ## Repository Structure
 
@@ -40,8 +50,9 @@ For complete submission details, see the [**Game Jam Showcase**](game-jam/README
 │       ├── procedural-composer/ # Pure-code audio synthesis and chiptune sound engine
 │       ├── sprite-animation/    # Sprite sheet slicing, animation states, and Aseprite format
 │       └── swarm-coding/        # Multi-agent task parallelization
-├── game-jam/                    # GopherCon UK Mini Game Jam entries
-│   └── london-eco-rider/        # Jam Winner: London Eco-Rider: Ice Cream & Bottle Patrol
+├── mini-game-jam/               # GopherCon UK Mini Game Jam entries
+│   ├── london-eco-rider/        # Jam Winner: London Eco-Rider: Ice Cream & Bottle Patrol
+│   └── photos/                  # Event and showcase photo gallery
 ├── check_env.sh                 # Pre-flight environment check script
 └── README.md
 ```
