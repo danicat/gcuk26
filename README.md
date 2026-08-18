@@ -10,7 +10,7 @@ Materials, agent skills, and tooling for the "Vibe Code a 2D Game with Go and Ge
 
 DISCLAIMER: I AM NOT A GAME DEVELOPER.
 
-![](chibi_dani_oops.png)
+<img src="chibi_dani_oops.png" alt="Chibi Dani Oops" width="320" />
 
 I am [Daniela Petruzalek](https://linkedin.com/in/petruzalek), a Developer Relations Engineer at Google. I am the author and facilitator of this workshop. I might not be a game developer, but I am a lifetime gamer and game collector, and enjoy using projects like this to teach modern software engineering concepts like agentic coding, generative AI and other ways to use AI to unlock your creativity!
 
